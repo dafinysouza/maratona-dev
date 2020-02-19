@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Doe sangue!</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1>Doe</h1>
+      <img class="logo" src="./img/logo.png" alt="Imagem de DOE">
       <h2>A sua doação importa</h2>
       <p>Até 3 vidas com 1 doação</p>
       <p>Mais de 38.000 doações são necessárias</p>
@@ -16,7 +18,7 @@
       <button>Quero ajudar</button>
     </header>
 
-    <section class="form">
+    <section class="form hide">
       <h2>Entre na lista de doadores</h2>
       <form action="/">
         <input 
@@ -31,11 +33,12 @@
           type="text" 
           name="blood"
           placeholder="Tipo sanguíneo">
+          <button>Quero ajudar</button>
       </form>
     </section>
 
     <main>
-      <h2>Últimos doadores</h2>
+      <h2>Últimos <span>doadores</span></h2>
 
       <section class="donors">
         <div class="donor">
@@ -61,5 +64,6 @@
       Com ♥ Dafiny Souza
     </footer>
     
+    <script src="script.js"></script>
   </body>
 </html>
